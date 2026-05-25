@@ -2,27 +2,5 @@
   "buildCommand": "pnpm build",
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
-  "framework": "nextjs",
-  "env": [
-    {
-      "key": "NEXT_PUBLIC_API_URL",
-      "value": "https://your-backend.onrender.com",
-      "type": "plain",
-      "description": "Backend API URL"
-    },
-    {
-      "key": "NEXT_PUBLIC_APP_NAME",
-      "value": "LingualRAG",
-      "type": "plain",
-      "description": "Application name"
-    },
-    {
-      "key": "NEXT_PUBLIC_SENTRY_DSN",
-      "value": "https://xxxxx@sentry.io/xxxxx",
-      "type": "plain",
-      "description": "Sentry error tracking DSN"
-    }
-  ],
-  "regions": ["auto"],
-  "crons": []
+  "framework": "nextjs"
 }
